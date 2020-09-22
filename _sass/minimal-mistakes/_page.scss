@@ -15,7 +15,7 @@
   animation-delay: 0.15s;
 
   @include breakpoint($x-large) {
-    max-width: $max-width;
+    max-width: 80%;
   }
 }
 
@@ -71,6 +71,8 @@ body {
 .page__title {
   margin-top: 0;
   line-height: 1;
+  font-size: 1.4em;
+  color: #5c7894;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -299,12 +301,6 @@ body {
   text-transform: uppercase;
 }
 
-.page__meta-sep::before {
-  content: "\2022";
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-}
-
 /*
    Page taxonomy
    ========================================================================== */
@@ -344,6 +340,7 @@ body {
 
   .archive__item-title {
     margin-top: 0;
+    font-size: $type-size-5
   }
 
   .archive__subtitle {

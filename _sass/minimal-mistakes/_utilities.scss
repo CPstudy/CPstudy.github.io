@@ -394,8 +394,8 @@ body:hover .visually-hidden button {
       left: 0;
       width: 100%;
       height: 100%;
-      opacity: 0;
-      background-color: $background-color;
+      opacity: 0.5;
+      background-color: white;
       -webkit-transition: $global-transition;
       transition: $global-transition;
       pointer-events: none;
@@ -416,7 +416,8 @@ body:hover .visually-hidden button {
   .navicon,
   .navicon:before,
   .navicon:after {
-    background: mix(#000, $primary-color, 25%);
+    //background: mix(#000, $primary-color, 25%);
+    opacity: 1;
   }
 
   &.close {
