@@ -127,6 +127,10 @@ body {
     }
   }
 
+  blockquote p {
+    margin: 0;
+  }
+
   a:not(.btn) {
     &:hover {
       text-decoration: underline;
