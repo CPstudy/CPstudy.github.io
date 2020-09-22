@@ -6,6 +6,7 @@
    Typography
    ========================================================================== */
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
 
 $doc-font-size: 16 !default;
 
@@ -31,7 +32,8 @@ $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
 $global-font-family: $sans-serif !default;
-$header-font-family: $sans-serif !default;
+$header-font-family: "NanumSquare", "Roboto", "Segoe UI",
+"Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $caption-font-family: $serif !default;
 
 /* type scale */
