@@ -20,6 +20,7 @@
 
 .archive__item {
   position: relative;
+  margin-bottom: 1.1em;
 
   a {
     position: relative;
@@ -46,9 +47,11 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
+  font-size: 0.9em;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
+
 
   a[rel="permalink"]::before {
     content: '';
